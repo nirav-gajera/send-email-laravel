@@ -46,7 +46,7 @@ We would like to extend our thanks to the following sponsors for helping fund on
 - [WebL'Agence](https://weblagence.com/)
 
 ## installation
-1. Change you .env file with your mail credential
+1. Change .env file with your mail credential
 
   Ex: MAIL_MAILER=smtp
 
