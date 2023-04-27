@@ -45,13 +45,25 @@ We would like to extend our thanks to the following sponsors for helping fund on
 - [Runtime Converter](http://runtimeconverter.com/)
 - [WebL'Agence](https://weblagence.com/)
 
-## Contributing
+## installation
+1. Change you .env file with your mail credential
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+  Ex: MAIL_MAILER=smtp
 
-## Security Vulnerabilities
+  MAIL_HOST=sandbox.smtp.mailtrap.io
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+  MAIL_PORT=2525
+
+  MAIL_USERNAME=56xxxxxxxxe  #your_mail_username
+
+  MAIL_PASSWORD=0exxxxxxgxx14 #you_password
+
+  MAIL_ENCRYPTION=tls
+
+2. php artisan config:cl
+
+3. php artisan serve
+    -http://127.0.0.1:8000/sendemail
 
 ## License
 
